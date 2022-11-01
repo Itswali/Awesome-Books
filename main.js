@@ -40,7 +40,7 @@ addButton.addEventListener('click', (e) => {
     <div> 
     <p>${title.value}</p>
     <p>${author.value}</P>
-    <button class ="remove" name="${title.value}">Remove book </button>
+    <button class ="remove" name="${title.value}">Remove book </button> 
     <hr>
     </div>
     `;
