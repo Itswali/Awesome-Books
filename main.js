@@ -1,7 +1,11 @@
+// constant variable declare
+
 const addButton = document.getElementById('Add');
 const title = document.getElementById('title');
 const author = document.getElementById('author');
 const adder = document.getElementById('keeper');
+
+// setup the local storage
 
 if (localStorage.getItem('books') !== null) {
     const getbook = JSON.parse(localStorage.getItem('books'));
@@ -18,13 +22,19 @@ if (localStorage.getItem('books') !== null) {
     });
   }
 
+// function for Book info 
+
 function Book(title,author) {
     this.title = title ; 
     this.author = author ;
 }
 
+// function to add which book detial on page
+
 addButton.addEventListener('click', (e) => {
     e.preventDefault();
+
+    // array usage
 
     adder.innerHTML+= `
     <div> 
@@ -34,6 +44,8 @@ addButton.addEventListener('click', (e) => {
     <hr>
     </div>
     `;
+
+    // adding book with local storage
 
     const book1 = new Book(title.value, author.value);
 
@@ -49,13 +61,17 @@ addButton.addEventListener('click', (e) => {
   });
   
 
+//  Remove book from shelf using array filter
+
   const remove = document.querySelectorAll('.remove');
 
 remove.forEach((item) => {
   item.addEventListener('click', () => {
     item.parentElement.remove();
     const bookname = item.name;
-    // remove from local storage
+
+// Remove book-info from local storage
+
     const getremove = JSON.parse(localStorage.getItem('books'));
     const newArr = getremove.filter((object) => object.title !== bookname);
     localStorage.setItem('books', JSON.stringify(newArr));
