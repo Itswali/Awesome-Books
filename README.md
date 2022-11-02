@@ -2,8 +2,7 @@
 
 # Awesome Books
 
-This page registers books with author and title of the book.
-In base to a low fidelity wirefrime we create a SPA page with basic HTML, CSS, JavaScript classes.
+"Awesome books" is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, we learned how to manage data using JavaScript. Thanks to that your website will be more interactive. We used a medium-fidelity wireframe to build the UI.
 
 ## Built With
 
