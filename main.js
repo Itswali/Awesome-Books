@@ -5,7 +5,7 @@ class Book {
     this.author = author;
   }
 }
-function Store {
+class Store {
   constructor() {
     this.count = this.getBooks().length + 1;
   }
@@ -38,8 +38,7 @@ function Store {
   }
 }
 const store = new Store();
-
-function UI {
+class UI {
   static displayBooks() {
     const books = store.getBooks();
     books.forEach((book) => UI.addBookList(book));
