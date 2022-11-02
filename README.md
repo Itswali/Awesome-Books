@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link]
+[Live Demo Link] (...come soon)
 
 
 ## Getting Started
@@ -45,21 +45,12 @@ To remove a book from the list:
 
 - GitHub: [@ivanmvh](https://github.com/ivanmvh)
 - Twitter: [@imprivado](https://twitter.com/imprivado)
-- LinkedIn: [Iván Martínez von Halle] (https://www.linkedin.com/in/ivan-martinez-von-halle/)
+- LinkedIn: [Iván Martínez von Halle](https://www.linkedin.com/in/ivan-martinez-von-halle/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-<!-- ## Acknowledgments
-
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
