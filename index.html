@@ -1,23 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book-Keeper</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>imvh-Awesome Books</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
-
 <body>
-    <h1>All Awesome Books</h1>
-    <section id="keeper"> </section>
-    <form>
-        <input type="text" name="Title" id="title" class="title" placeholder="Title" autocomplete="off"> <br> <br>
-        <input type="text" name="Author" id="author" class="author" placeholder="Author" autocomplete="off"> <br> <br>
-        <button class="Add" type="submit" id="Add">Add the book</button>
-    </form>
+<section id="header-sec">
+  <h1>Awesome Books</h1>
+  <nav id="nav-sec">
+    <ul>
+  </ul>
+  </nav>
+</section>
+<p id="date-sub"></p>
+<main>
+  <section id="list-sec">
+    
+  </section>
 
-    <script src="main.js"></script>
+  <section id="add-sec">
+    <h2>Book title and author</h2>
+    <input id="title" name="title" placeholder="title" required>
+    <input id="author" name="author" placeholder="author" required>
+    <button id="btn-add">Add</button>
+  </section>
+
+  <section id="contact-sec">
+
+  </section>
+</main>
+
+<footer>
+
+</footer>
+
 </body>
-
+<script src="main.js"></script>
 </html>
