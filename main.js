@@ -9,6 +9,7 @@ class Store {
   constructor() {
     this.count = this.getBooks().length + 1;
   }
+
   getBooks() {
     if (localStorage.getItem('books') === null) {
       this.books = [];
@@ -17,6 +18,7 @@ class Store {
     }
     return this.books;
   }
+
   addBook(book) {
     const newBook = {
       id: this.count,
@@ -28,6 +30,7 @@ class Store {
     localStorage.setItem('books', JSON.stringify(books));
     this.count += 1;
   }
+
   removeBook(id) {
     const books = this.getBooks();
     const filteredBooks = books.filter((book) => book.id !== id);
@@ -40,6 +43,7 @@ class UI {
     const books = store.getBooks();
     books.forEach((book) => UI.addBookList(book));
   }
+
   static addBookList(book) {
     const bookList = document.getElementById('book-list');
 
@@ -48,7 +52,7 @@ class UI {
     <div>${book.title} By ${book.author}</div>
     <button id="book-num-${book.id}"class="delete">Remove</button>
     `;
- 
+
     bookList.appendChild(content);
     content.classList.add('book-row-content');
   }
@@ -58,6 +62,7 @@ class UI {
       element.parentElement.remove();
     }
   }
+
   static clearFields() {
     document.querySelector('#title').value = '';
     document.querySelector('#author').value = '';
