@@ -52,14 +52,3 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   store.removeBook(id);
 });
 
-
-const listshow = document.getElementById('list-show');
-const addshow = document.getElementById('add-show');
-const contact = document.getElementById('contact-show');
-
-
-listshow.addEventListener('click' , (e) => {
- 
-  
-
-}
