@@ -50,3 +50,52 @@ body {
   align-self: center;
   margin-left: 100px;
 }
+
+
+.books-table-container {
+  display: none;
+}
+
+#book-form {
+  display: none;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  width: 98%;
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+  height: 6vh;
+  margin: 10px;
+  gap: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar h1 {
+  margin: 15px 0px 0px 56px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+.main-links li{
+  list-style: none;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.main-links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-end;
+}
