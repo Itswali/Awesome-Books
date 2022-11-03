@@ -1,4 +1,52 @@
 body {
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.books-table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  border: 3px solid grey;
+
+  /* margin-left: auto;
+  margin-right: auto;  */
+  line-height: 200%;
   width: 100%;
-  margin: 0;
+}
+
+.book-row-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10px;
+}
+
+.book-row-content:nth-child(even) {
+  background-color: rgb(191, 185, 185);
+}
+
+.flex {
+  display: flex;
+}
+
+#book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+#book-form button {
+  width: 60px;
+  align-self: center;
+  margin-left: 100px;
 }
