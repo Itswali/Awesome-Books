@@ -113,6 +113,21 @@ a {
   align-self: flex-end;
 }
 
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#contact > h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+#contact > *:not(h2) {
+  font-size: 25px;
+}
+
 .footer-container {
   border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
