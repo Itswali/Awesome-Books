@@ -1,7 +1,6 @@
-import Book from './book.js';
-import Store from './store.js';
+/* import Book from './book.js';
+import Store from './store.js'; */
 
-/*
 class Book {
   constructor(title, author, id) {
     this.id = id;
@@ -9,9 +8,7 @@ class Book {
     this.author = author;
   }
 }
-*/
 
-/*
 class Store {
   constructor() {
     this.count = this.getBooks().length + 1;
@@ -44,7 +41,6 @@ class Store {
     localStorage.setItem('books', JSON.stringify(filteredBooks));
   }
 }
-*/
 
 const store = new Store();
 class UI {
