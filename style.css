@@ -1,6 +1,8 @@
 body {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .books-table-container {
@@ -9,14 +11,16 @@ body {
   align-items: center;
 }
 
+.main-title {
+  margin-top: 60px;
+  font-weight: 400;
+}
+
 .book-list {
   display: flex;
   flex-direction: column;
   max-width: 500px;
   border: 3px solid grey;
-
-  /* margin-left: auto;
-  margin-right: auto;  */
   line-height: 200%;
   width: 100%;
 }
@@ -53,6 +57,10 @@ body {
 
 
 .books-table-container {
+  /* display: none; */
+}
+
+.book-list {
   display: none;
 }
 
@@ -61,14 +69,10 @@ body {
 }
 
 .nav-bar {
-  display: flex;
-  flex-direction: row;
-  width: 98%;
+
   border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
-  height: 6vh;
-  margin: 10px;
-  gap: 50%;
+  margin: 0 10px;
 }
 
 a {
@@ -76,11 +80,15 @@ a {
 }
 
 .nav-bar h1 {
-  margin: 15px 0px 0px 56px;
   font-weight: 700;
+  margin: 0 50px;
+  padding: 10px;
   font-size: 18px;
 }
 
+.main-links {
+  padding-right: 50px;
+}
 
 .main-links li{
   list-style: none;
@@ -97,5 +105,23 @@ a {
 .navbar {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
   align-self: flex-end;
+}
+
+.footer-container {
+  border: 1px solid black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
+  margin: 0 10px;
+  position: fixed;
+  width: 95%;
+  bottom: 0;
+  margin-bottom: 22px;
+}
+
+.footer-container p {
+  margin: 10px 0px 10px 60px;
+  font-size: 16px;
+  font: 600;
 }
