@@ -5,11 +5,11 @@ export default class Book {
     this.title = title;
     this.author = author;
   }
-}
-
+  
   constructor(title, author) {
     this.title = title;
     this.author = author;
   }
+  
+  
 }
-
