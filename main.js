@@ -51,4 +51,3 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   const id = parseInt(idString, 10);
   store.removeBook(id);
 });
-

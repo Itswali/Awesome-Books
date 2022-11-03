@@ -40,7 +40,7 @@ body {
   display: flex;
 }
 
-#book-form {
+.book-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -48,15 +48,12 @@ body {
   text-align: center;
 }
 
-#book-form button {
+.book-form button {
   width: 60px;
   align-self: center;
 }
 
-
-
-
-#book-form input {
+.book-form input {
   width: 30%;
   height: 25px;
 }
@@ -66,7 +63,6 @@ input::placeholder {
 }
 
 .nav-bar {
-
   border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
   margin: 0 10px;
@@ -87,7 +83,7 @@ a {
   padding-right: 50px;
 }
 
-.main-links li{
+.main-links li {
   list-style: none;
   border-right: 1px solid black;
   padding-right: 20px;
@@ -133,22 +129,18 @@ a {
 }
 
 .footer-container p {
-  margin: 10px 0px 10px 60px;
+  margin: 10px 0 10px 60px;
   font-size: 16px;
-  font: 600;
-}
-
-
-
-
-.books-table-container {
-  display: none;
 }
 
 #book-form {
   display: none;
 }
 
-.contact-section {
+#contact1 {
+  display: none;
+}
+
+#show-1 {
   display: none;
 }
