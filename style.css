@@ -30,6 +30,7 @@ body {
   justify-content: space-between;
   font-family: 'Montserrat', sans-serif;
   padding: 0 10px;
+  line-break: auto;
 }
 
 .book-row-content:nth-child(even) {
@@ -54,7 +55,7 @@ body {
 }
 
 .book-form input {
-  width: 40%;
+  width: 50%;
   height: 25px;
 }
 
@@ -140,8 +141,9 @@ a {
 }
 
 .footer-container p {
-  margin: 10px 0 10px 30px;
+  margin: 10px 10px 10px 30px;
   font-size: 12px;
+  line-break: auto;
 }
 
 #book-form {
@@ -179,11 +181,18 @@ a {
 }
 
 @media only screen and (max-width: 351px) {
+  .nav-bar h1 {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 15px;
+  }
+
   .main-links ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-inline-start: 0;
+    padding-right: 10px;
   }
 
   .main-links li {
@@ -203,5 +212,18 @@ a {
 
   #contact > *:not(h2) {
     font-size: 12px;
+  }
+
+  .book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .book-form input {
+    width: 80%;
+    height: 20px;
   }
 }
