@@ -1,6 +1,7 @@
-/* import Book from './book.js';
-import Store from './store.js'; */
+import Book from './js/book.js';
+import Store from './js/store.js';
 
+/*
 class Book {
   constructor(title, author, id) {
     this.id = id;
@@ -41,6 +42,8 @@ class Store {
     localStorage.setItem('books', JSON.stringify(filteredBooks));
   }
 }
+*/
+
 
 const store = new Store();
 class UI {
