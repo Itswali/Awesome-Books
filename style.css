@@ -19,10 +19,9 @@ body {
 .book-list {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
   border: 3px solid grey;
   line-height: 200%;
-  width: 100%;
+  width: 98%;
 }
 
 .book-row-content {
@@ -52,20 +51,24 @@ body {
 #book-form button {
   width: 60px;
   align-self: center;
-  margin-left: 100px;
 }
 
 
 .books-table-container {
-  /* display: none; */
-}
-
-.book-list {
   display: none;
 }
 
 #book-form {
   display: none;
+}
+
+#book-form input {
+  width: 30%;
+  height: 25px;
+}
+
+input::placeholder {
+  font-weight: 600;
 }
 
 .nav-bar {

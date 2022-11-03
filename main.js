@@ -51,3 +51,15 @@ document.querySelector('#book-list').addEventListener('click', (e) => {
   const id = parseInt(idString, 10);
   store.removeBook(id);
 });
+
+
+const listshow = document.getElementById('list-show');
+const addshow = document.getElementById('add-show');
+const contact = document.getElementById('contact-show');
+
+
+listshow.addEventListener('click' , (e) => {
+ 
+  
+
+}
