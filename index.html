@@ -1,59 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Awesome Books</title>
-  </head>
-  <body>
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sandbox-AWB-IM</title>
-  <link rel="stylesheet" href="./styles.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Awesome Books</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
-<section id="header-sec">
-  <h1>Awesome Books</h1>
-  <nav id="nav-sec">
-    <ul>
-  </ul>
-  </nav>
-</section>
-<p id="date-sub"></p>
-<main>
-  <section id="list-sec">
-    
-  </section>
-    <div class="books-table-container">
-      <h1 class="main-title">Awesome Books</h1>
-      <div class="book-list" id="book-list">
-        <div class="books-table"></div>
+
+  <section id="nav-bar" class="nav-bar">
+    <div class="navbar">
+      <a href="#">
+        <h1>Awesome Books</h1>
+      </a>
+      <div class="main-links">
+        <ul>
+          <li><a  id="listshow"  href="#">List</a></li>
+          <li><a  id="addshow" href="#" >Add New</a></li>
+          <li><a  id="contactshow" href="#" >Contact</a> </li>
+        </ul>
       </div>
     </div>
-  <form id="book-form">
-        <h1>Add a new book</h1>
-      <div>
-        <input type="text" id="title" placeholder="Title" required />
-      </div>
-      <div>
-        <input type="text" id="author" placeholder="Author" required />
-      </div>
-      <button type="submit">Add</button>
-    </form>
-    <script src="main.js" type="module"></script>
-  </body>
-</html>
-  <section id="contact-sec">
   </section>
-</main>
-<footer>
-</footer>
+  <div id="date-time">fecha</div>
+<!-- list book section -->
+
+  <div class="books-table-container"  id="show-1">
+    <h1 class="main-title">All Awesome Books</h1>
+    <div class="book-list" id="book-list">
+      <div class="books-table"></div>
+    </div>
+  </div>
+<!-- new book section -->
+</section>
+  <form id="book-form" class="book-form" >
+    <h1>Add a new book</h1>
+    <div>
+      <input type="text" id="title" placeholder="Title" required />
+    </div>
+    <div>
+      <input type="text" id="author" placeholder="Author" required />
+    </div>
+    <button type="submit" class="btn-add">Add</button>
+  </form>
+  <!-- Contact section -->
+  <section class="contact-section" id="contact1">
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>Do you have any questions or you just want to say "Hello"?<br>You can reach out to us!</p>
+      <ul>
+        <li>Our email: ivanmvh@gmail.com</li>
+        <li>Our email: walij@gmail.com</li>
+        <li>Our phone number: +57-319-453-7580</li>
+        <li>Our phone number: +92-309-592-5592</li>
+        <li>Our address: Cali, Colombia </li>
+        <li>Our address: Pakistan</li>
+      </ul>
+    </section>
+  </section>
+
+  <footer class="footer-container">
+    <div>
+      <p>Copyright @ 2022 Creative Commons. Some Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="main.js" type="module"></script>
+  <script src="js/dynamic.js"></script>
 </body>
-<script src="js/main.js" type="module"></script>
+
 </html>
