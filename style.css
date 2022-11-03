@@ -103,6 +103,18 @@ a {
   align-self: flex-end;
 }
 
+#date-time {
+  height: 24px;
+  width: 98%;
+  color: #8963c6;
+  /*position: absolute;
+  right: 3%;
+  top: 12%; */
+  font-weight: bolder;
+  text-align: right;
+  margin-top: 5px;
+}
+
 .contact-section {
   display: flex;
   flex-direction: row;
@@ -115,17 +127,18 @@ a {
 }
 
 #contact > *:not(h2) {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .footer-container {
   border: 1px solid black;
   box-shadow: rgba(0, 0, 0, 0.3) 0 2px 4px;
-  margin: 0 10px;
+  margin: 0 20px;
   position: fixed;
   width: 95%;
   bottom: 0;
   margin-bottom: 22px;
+  background-color: white;
 }
 
 .footer-container p {
