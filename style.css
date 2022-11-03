@@ -83,7 +83,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  /*align-self: flex-end;*/
 }
 
 .main-links {
@@ -156,7 +155,6 @@ a {
   border: 3px outset blueviolet;
   box-shadow: 4px 4px;
   cursor: pointer;
-  align-self: right;
 }
 
 .delete {
@@ -186,8 +184,8 @@ a {
     flex-direction: column;
     gap: 10px;
     padding-inline-start: 0;
-  }  
-  
+  }
+
   .main-links li {
     list-style: none;
     border-bottom: 1px solid black;
@@ -196,14 +194,14 @@ a {
     padding-right: 10px;
     font-size: 12px;
   }
-  
+
   #contact > h2 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
   }
-  
+
   #contact > *:not(h2) {
     font-size: 12px;
   }
-}  
+}
